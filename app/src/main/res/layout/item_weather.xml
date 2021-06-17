@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+   >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#8A8585"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="#F8F3F3"
+        app:cardCornerRadius="15dp"
+        app:cardPreventCornerOverlap="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/txt_daynext"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito_black"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/img_cloudsday"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/rain"></ImageView>
+
+            <TextView
+                android:id="@+id/txt_despricationday"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="dsadas"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_black"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/txt_tempday"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunito_black"
+                android:gravity="center"
+                android:text="sss"
+                android:textColor="#0E0E0E"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
